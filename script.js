@@ -8,8 +8,8 @@ currYear = date.getFullYear(),
 currMonth = date.getMonth();
 
 // storing full name of all months in array
-const months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
-              "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+const months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
 
 const renderCalendar = () => {
     let firstDayofMonth = new Date(currYear, currMonth, 1).getDay(), // getting first day of month
